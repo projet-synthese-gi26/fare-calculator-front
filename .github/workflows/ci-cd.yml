@@ -3,8 +3,7 @@ name: Fare Calculator CI/CD
 on:
   push:
     branches:
-      - "main"
-      - "master"
+      - "**"
       
 jobs:
   pipeline:
