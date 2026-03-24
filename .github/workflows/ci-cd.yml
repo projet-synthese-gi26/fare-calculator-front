@@ -11,8 +11,6 @@ on:
       - "Fare-Calculator-capture-version-pc/**"
       - ".gitignore"
 
-  workflow_dispatch:
-
 jobs:
   pipeline:
     uses: projet-synthese-gi26/workflows/.github/workflows/react-vite-ci-cd.yml@main
