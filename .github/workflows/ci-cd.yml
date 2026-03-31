@@ -39,12 +39,12 @@ jobs:
       VITE_NOMINATIM_BASE_URL:           https://nominatim.openstreetmap.org #${{ vars.VITE_NOMINATIM_BASE_URL }}
       VITE_OPENMETEO_BASE_URL:           https://api.open-meteo.com/v1 #${{ vars.VITE_OPENMETEO_BASE_URL }}
       VITE_MODE:                         development #${{ vars.VITE_MODE }}
-      VITE_ENABLE_GEOLOCATION:           true
-      VITE_CACHE_TTL:                    3600000
-      VITE_API_TIMEOUT:                  30000
+      VITE_ENABLE_GEOLOCATION:           'true'
+      VITE_CACHE_TTL:                    '3600000'
+      VITE_API_TIMEOUT:                  '30000'
       VITE_GA_ID:                        ${{ vars.VITE_GA_ID }}
       VITE_FIREBASE_AUTH_DOMAIN:         farecal-ae3f3.firebaseapp.com #${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
       VITE_FIREBASE_PROJECT_ID:          farecal-ae3f3 #${{ vars.VITE_FIREBASE_PROJECT_ID }}
       VITE_FIREBASE_STORAGE_BUCKET:      farecal-ae3f3.firebasestorage.app #${{ vars.VITE_FIREBASE_STORAGE_BUCKET }}
-      VITE_FIREBASE_BILLING_ENABLED:     true
+      VITE_FIREBASE_BILLING_ENABLED:     'true'
  
