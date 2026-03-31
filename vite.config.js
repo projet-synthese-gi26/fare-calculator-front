@@ -109,4 +109,14 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  server: {
+    port: 3000,
+    strictPort: true,
+    host: true, // this will listen to all addresses including lan and public address
+    //origin: "http://0.0.0.0:9010" we don't need the origin for now
+    allowedHosts: [
+      "farcal-dev.yowyob.com",
+      "www.farcal-dev.yowyob.com"
+    ],
+  },
 })
