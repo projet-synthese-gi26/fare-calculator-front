@@ -302,4 +302,3 @@ npm run lint
 ## -> Documentation complète
 
 - **API Backend** : `doc/API_DOC.md` (endpoints, modèles, exemples)
-test
