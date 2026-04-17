@@ -24,7 +24,7 @@ jobs:
       #VITE_API_KEY:                      ${{ secrets.VITE_API_KEY }}
       VITE_API_KEY:                      '974e9428-6ce2-48e7-b74b-93f572007ef8'
       #VITE_MAPBOX_TOKEN:                 ${{ secrets.VITE_MAPBOX_TOKEN }}
-      VITE_MAPBOX_TOKEN:                 'k.eyJ1IjoibTJnaSIsImEiOiJjbWhramlqcnIwYW5rMmlzY3ViZmg1NGFmIn0.q3XQxQTte7ADbn32fwFh-g'
+      VITE_MAPBOX_TOKEN:                 'pk.eyJ1IjoibTJnaSIsImEiOiJjbWhramlqcnIwYW5rMmlzY3ViZmg1NGFmIn0.q3XQxQTte7ADbn32fwFh-g'
       #VITE_FIREBASE_API_KEY:             ${{ secrets.VITE_FIREBASE_API_KEY }}
       VITE_FIREBASE_API_KEY:             'AIzaSyAvveEEwmsXRXHGslRlYrPby-oFJwGMd8E'
       #VITE_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.VITE_FIREBASE_MESSAGING_SENDER_ID }}
