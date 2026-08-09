@@ -116,7 +116,9 @@ export default defineConfig({
     //origin: "http://0.0.0.0:9010" we don't need the origin for now
     allowedHosts: [
       "farcal-dev.yowyob.com",
-      "www.farcal-dev.yowyob.com"
+      "www.farcal-dev.yowyob.com",
+      "farcal.yowyob.com",
+      "www.farcal.yowyob.com",
     ],
   },
 })
